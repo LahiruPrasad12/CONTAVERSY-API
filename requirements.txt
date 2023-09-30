@@ -1,5 +1,4 @@
 absl-py==1.4.0
-array-record==0.4.1
 astunparse==1.6.3
 blinker==1.6.2
 cachetools==5.3.1
