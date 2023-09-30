@@ -10,7 +10,7 @@ dm-tree==0.1.8
 flask==2.2.5
 flask-cors==4.0.0
 flatbuffers==1.12
-fsspec==2023.9.2
+fsspec==2023.1.0
 gast==0.4.0
 google-auth==2.23.1
 google-auth-oauthlib==0.4.6
