@@ -10,6 +10,13 @@ import os
 from flask_cors import CORS
 import sys
 
+import os
+
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+
+config = tf.compat.v1.ConfigProto(device_count={'GPU': 0})
+sess = tf.compat.v1.Session(config=config)
+
 
 
 app = Flask(__name__)
@@ -85,4 +92,4 @@ def predict():
 
 
 if __name__ == '__main__':
-    app.run(debug=True, port=4000)
+    app.run(ebug=True, host="0.0.0.0", port=400)
